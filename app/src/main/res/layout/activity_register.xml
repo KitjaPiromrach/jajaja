@@ -26,43 +26,61 @@
 
 
         <EditText
-            android:id="@+id/tvusernameRE"
+            android:id="@+id/etdisplayRE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="Username"
-            android:textSize="20dp"
-            android:textColor="@android:color/darker_gray"/>
+            android:hint="displayname"
+            android:layout_marginTop="10dp"
+            >
+
+        </EditText>
+        <EditText
+            android:id="@+id/etusernameRE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Username"
+            android:layout_marginTop="10dp"
+            >
+
+        </EditText>
+
 
         <EditText
-            android:id="@+id/tvpasswirdRE"
+            android:id="@+id/etpasswordRE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="Password"
-            android:textSize="20dp"
-            android:textColor="@android:color/darker_gray"/>
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            >
+
+        </EditText>
 
         <EditText
-            android:id="@+id/tvconpasswordRE"
+            android:id="@+id/etconpasswordRE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="Password confirm"
-            android:textSize="20dp"
-            android:textColor="@android:color/darker_gray"/>
+            android:hint="Password confirm"
+            android:layout_marginTop="20dp"
+            >
+
+        </EditText>
 
 
 
 
         <Button
-            android:id="@+id/btnpassword"
+            android:id="@+id/btnregis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="150dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
 

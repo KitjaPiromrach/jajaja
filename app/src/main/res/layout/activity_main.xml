@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:text="Password"
             android:textSize="20dp"
             android:textColor="@android:color/darker_gray"/>
@@ -52,9 +53,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:text="LOGIN"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            />
 
         <TextView
             android:layout_width="match_parent"
